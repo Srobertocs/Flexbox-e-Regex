@@ -1,19 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik:wght@300;400&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Rubik', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Rubik:wght@300;400&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Rubik", sans-serif;
 }
-body{
-    display: flex;
-    justify-content: center;
-    border: 2px solid black;
-    margin-top: 25vh;
-
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 25vh;
 }
-.input{
-    padding: 5px;
-    border: 0;
-    outline: 0;
-    border-bottom: 2px solid rgb(200, 200, 200);
+form {
+  display: flex;
+  box-flex: wrap;
+  gap: 32px;
+}
+.input {
+  padding: 5px;
+  border: 0;
+  outline: none;
+  border-bottom: 2px solid rgb(200, 200, 200);
 }
