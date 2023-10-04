@@ -47,7 +47,7 @@ img {
   display: flex;
   font-family: "roboto";
   flex-direction: column;
-  gap: 16px;
+  gap: 4px;
   font-size: 16px;
   width: 250px;
   margin-bottom: 32px;
