@@ -1,22 +1,58 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Rubik:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Calistoga&family=Poppins:wght@600&family=Roboto&display=swap");
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Rubik", sans-serif;
 }
 body {
   display: flex;
   justify-content: center;
   margin-top: 25vh;
 }
-form {
+img {
+  height: 18px;
+}
+.imagem_campo {
   display: flex;
-  box-flex: wrap;
-  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  height: 26px;
+  width: 26px;
+}
+.titulo_campo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+#titulo {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+#form_layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+  height: 200px;
+  width: 800px;
 }
 .input {
   padding: 5px;
   border: 0;
   outline: none;
-  border-bottom: 2px solid rgb(200, 200, 200);
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+.campo_form {
+  display: flex;
+  font-family: "roboto";
+  flex-direction: column;
+  gap: 16px;
+  font-size: 16px;
+  width: 250px;
+  margin-bottom: 32px;
+}
+.titulo_imagem {
+  display: flex;
+  gap: 4px;
 }
