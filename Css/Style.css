@@ -56,3 +56,16 @@ img {
   display: flex;
   gap: 4px;
 }
+#botao_layout{
+  display: flex;
+  justify-content: center;
+}
+button{
+  font-family: "Poppins", sans-serif;
+  padding: 8px 64px;
+  border-radius: 8px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #444343;
+  cursor: pointer;
+}
